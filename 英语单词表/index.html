@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人教版七年级上册英语单词表</title>
+    <!-- 引入外部CSS样式文件 -->
+    <link rel="stylesheet" href="css/wordlist.css">
+</head>
+<body>
+    <div class="container">
+        <h1>人教版七年级上册英语单词表</h1>
+        <!-- 搜索框 -->
+        <div class="search-box">
+            <input type="text" id="wordSearch" placeholder="输入单词/释义快速查找，支持模糊搜索...">
+        </div>
+        <!-- 单元切换 -->
+        <div class="unit-tabs" id="unitTab">
+            <button class="active" data-target="unit1">Unit 1</button>
+            <button data-target="unit2">Unit 2</button>
+            <button data-target="unit3">Unit 3</button>
+            <button data-target="unit4">Unit 4</button>
+            <button data-target="unit5">Unit 5</button>
+            <button data-target="unit6">Unit 6</button>
+            <button data-target="unit7">Unit 7</button>
+            <button data-target="unit8">Unit 8</button>
+            <button data-target="review">总复习</button>
+        </div>
+
+        <!-- Unit 1 -->
+        <div class="word-list active" id="unit1">
+            <div class="word-item" data-word="good">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">good <span class="phonetic">/ɡʊd/</span></div>
+                    <div class="trans">adj. 好的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="morning">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">morning <span class="phonetic">/ˈmɔː(r)nɪŋ/</span></div>
+                    <div class="trans">n. 早晨；上午</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="Good morning">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">Good morning! <span class="phonetic">/ɡʊd ˈmɔː(r)nɪŋ/</span></div>
+                    <div class="trans">早上好！</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="hi">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">hi <span class="phonetic">/haɪ/</span></div>
+                    <div class="trans">interj. 嗨；喂</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="hello">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">hello <span class="phonetic">/həˈləʊ/</span></div>
+                    <div class="trans">interj. 你好；喂</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="afternoon">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">afternoon <span class="phonetic">/ˌɑːftəˈnuːn/</span></div>
+                    <div class="trans">n. 下午</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="Good afternoon">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">Good afternoon! <span class="phonetic">/ɡʊd ˌɑːftəˈnuːn/</span></div>
+                    <div class="trans">下午好！</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="evening">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">evening <span class="phonetic">/ˈiːvnɪŋ/</span></div>
+                    <div class="trans">n. 晚上；傍晚</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="Good evening">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">Good evening! <span class="phonetic">/ɡʊd ˈiːvnɪŋ/</span></div>
+                    <div class="trans">晚上好！</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="how">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">how <span class="phonetic">/haʊ/</span></div>
+                    <div class="trans">adv. 怎样；如何</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="are">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">are <span class="phonetic">/ɑː(r)/, /ə(r)/</span></div>
+                    <div class="trans">v. 是</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="you">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">you <span class="phonetic">/juː/, /ju/</span></div>
+                    <div class="trans">pron. 你；你们</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="How are you">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">How are you? <span class="phonetic">/haʊ ɑː(r) juː/</span></div>
+                    <div class="trans">你好吗？</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="I">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">I <span class="phonetic">/aɪ/</span></div>
+                    <div class="trans">pron. 我</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="am">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">am <span class="phonetic">/æm/, /əm/</span></div>
+                    <div class="trans">v. 是</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="fine">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">fine <span class="phonetic">/faɪn/</span></div>
+                    <div class="trans">adj. 健康的；美好的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="thanks">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">thanks <span class="phonetic">/θæŋks/</span></div>
+                    <div class="trans">interj.&n. 感谢；谢谢</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="OK">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">OK <span class="phonetic">/əʊˈkeɪ/</span></div>
+                    <div class="trans">interj.&adv. 好；可以</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 2 -->
+        <div class="word-list" id="unit2">
+            <div class="word-item" data-word="what">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">what <span class="phonetic">/wɒt/, /wɑːt/</span></div>
+                    <div class="trans">pron.&adj. 什么</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="is">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">is <span class="phonetic">/ɪz/, /s/</span></div>
+                    <div class="trans">v. 是</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="this">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">this <span class="phonetic">/ðɪs/</span></div>
+                    <div class="trans">pron. 这；这个</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="in">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">in <span class="phonetic">/ɪn/</span></div>
+                    <div class="trans">prep. 在……里</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="English">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">English <span class="phonetic">/ˈɪŋɡlɪʃ/</span></div>
+                    <div class="trans">n. 英语；adj. 英语的；英格兰的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="in English">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">in English <span class="phonetic">/ɪn ˈɪŋɡlɪʃ/</span></div>
+                    <div class="trans">用英语</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="map">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">map <span class="phonetic">/mæp/</span></div>
+                    <div class="trans">n. 地图</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="cup">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">cup <span class="phonetic">/kʌp/</span></div>
+                    <div class="trans">n. 杯子</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="ruler">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">ruler <span class="phonetic">/ˈruːlə(r)/</span></div>
+                    <div class="trans">n. 尺；直尺</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="pen">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">pen <span class="phonetic">/pen/</span></div>
+                    <div class="trans">n. 笔；钢笔</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="orange">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">orange <span class="phonetic">/ˈɒrɪndʒ/, /ˈɔːrɪndʒ/</span></div>
+                    <div class="trans">n. 橙子；adj. 橙色的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="jacket">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">jacket <span class="phonetic">/ˈdʒækɪt/</span></div>
+                    <div class="trans">n. 夹克衫；短上衣</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="key">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">key <span class="phonetic">/kiː/</span></div>
+                    <div class="trans">n. 钥匙</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="quilt">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">quilt <span class="phonetic">/kwɪlt/</span></div>
+                    <div class="trans">n. 被子；床罩</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="it">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">it <span class="phonetic">/ɪt/</span></div>
+                    <div class="trans">pron. 它</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="a">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">a/an <span class="phonetic">/ə/, /æn/</span></div>
+                    <div class="trans">art. 一（个，件……）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="spell">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">spell <span class="phonetic">/spel/</span></div>
+                    <div class="trans">v. 用字母拼；拼写</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="please">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">please <span class="phonetic">/pliːz/</span></div>
+                    <div class="trans">interj. 请</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 3 -->
+        <div class="word-list" id="unit3">
+            <div class="word-item" data-word="color">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">color <span class="phonetic">/ˈkʌlə(r)/</span></div>
+                    <div class="trans">n. 颜色；v. 给……着色</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="red">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">red <span class="phonetic">/red/</span></div>
+                    <div class="trans">adj.&n. 红色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="yellow">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">yellow <span class="phonetic">/ˈjeləʊ/</span></div>
+                    <div class="trans">adj.&n. 黄色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="green">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">green <span class="phonetic">/ɡriːn/</span></div>
+                    <div class="trans">adj.&n. 绿色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="blue">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">blue <span class="phonetic">/bluː/</span></div>
+                    <div class="trans">adj.&n. 蓝色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="black">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">black <span class="phonetic">/blæk/</span></div>
+                    <div class="trans">adj.&n. 黑色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="white">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">white <span class="phonetic">/waɪt/</span></div>
+                    <div class="trans">adj.&n. 白色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="purple">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">purple <span class="phonetic">/ˈpɜːpl/</span></div>
+                    <div class="trans">adj.&n. 紫色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="brown">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">brown <span class="phonetic">/braʊn/</span></div>
+                    <div class="trans">adj.&n. 棕色（的）；褐色（的）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="the">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">the <span class="phonetic">/ðə/, /ði/</span></div>
+                    <div class="trans">art. 指已提到或易领会到的人或事物</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="now">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">now <span class="phonetic">/naʊ/</span></div>
+                    <div class="trans">adv. 现在；目前</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="see">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">see <span class="phonetic">/siː/</span></div>
+                    <div class="trans">v. 理解；明白</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="can">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">can <span class="phonetic">/kæn/, /kən/</span></div>
+                    <div class="trans">modal v. 能；会</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="say">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">say <span class="phonetic">/seɪ/</span></div>
+                    <div class="trans">v. 说；讲</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="my">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">my <span class="phonetic">/maɪ/</span></div>
+                    <div class="trans">pron. 我的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="S">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">S <span class="phonetic">/es/</span></div>
+                    <div class="trans">n. 字母S</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="M">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">M <span class="phonetic">/em/</span></div>
+                    <div class="trans">n. 字母M</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="N">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">N <span class="phonetic">/en/</span></div>
+                    <div class="trans">n. 字母N</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 4 -->
+        <div class="word-list" id="unit4">
+            <div class="word-item" data-word="pen">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">pen <span class="phonetic">/pen/</span></div>
+                    <div class="trans">n. 钢笔</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="pencil">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">pencil <span class="phonetic">/ˈpensl/</span></div>
+                    <div class="trans">n. 铅笔</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="book">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">book <span class="phonetic">/bʊk/</span></div>
+                    <div class="trans">n. 书</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="eraser">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">eraser <span class="phonetic">/ɪˈreɪzə(r)/</span></div>
+                    <div class="trans">n. 橡皮</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="box">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">box <span class="phonetic">/bɒks/, /bɑːks/</span></div>
+                    <div class="trans">n. 箱；盒</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="pencil box">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">pencil box <span class="phonetic">/ˈpensl bɒks/</span></div>
+                    <div class="trans">铅笔盒；文具盒</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="schoolbag">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">schoolbag <span class="phonetic">/ˈskuːlbæɡ/</span></div>
+                    <div class="trans">n. 书包</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="dictionary">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">dictionary <span class="phonetic">/ˈdɪkʃənri/</span></div>
+                    <div class="trans">n. 词典；字典</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="his">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">his <span class="phonetic">/hɪz/</span></div>
+                    <div class="trans">pron. 他的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="hers">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">hers <span class="phonetic">/hɜːz/</span></div>
+                    <div class="trans">pron. 她的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="mine">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">mine <span class="phonetic">/maɪn/</span></div>
+                    <div class="trans">pron. 我的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="yours">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">yours <span class="phonetic">/jɔːz/, /jʊəz/</span></div>
+                    <div class="trans">pron. 你的；你们的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="it">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">it <span class="phonetic">/ɪt/</span></div>
+                    <div class="trans">pron. 它</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="excuse">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">excuse <span class="phonetic">/ɪkˈskjuːz/, /ɪkˈskjuːs/</span></div>
+                    <div class="trans">v. 原谅；宽恕</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="excuse me">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">excuse me <span class="phonetic">/ɪkˈskjuːz miː/</span></div>
+                    <div class="trans">劳驾；请原谅</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="thank">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">thank <span class="phonetic">/θæŋk/</span></div>
+                    <div class="trans">v. 感谢；谢谢</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="teacher">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">teacher <span class="phonetic">/ˈtiːtʃə(r)/</span></div>
+                    <div class="trans">n. 老师；教师</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="about">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">about <span class="phonetic">/əˈbaʊt/</span></div>
+                    <div class="trans">prep. 关于</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="for">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">for <span class="phonetic">/fɔː(r)/, /fə(r)/</span></div>
+                    <div class="trans">prep. 为了；给；对</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="help">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">help <span class="phonetic">/help/</span></div>
+                    <div class="trans">v.&n. 帮助；援助</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="welcome">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">welcome <span class="phonetic">/ˈwelkəm/</span></div>
+                    <div class="trans">adj. 受欢迎的</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 5 -->
+        <div class="word-list" id="unit5">
+            <div class="word-item" data-word="do">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">do <span class="phonetic">/duː/, /də/</span></div>
+                    <div class="trans">v. 做；干</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="have">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">have <span class="phonetic">/hæv/, /həv/</span></div>
+                    <div class="trans">v. 有</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="tennis">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">tennis <span class="phonetic">/ˈtenɪs/</span></div>
+                    <div class="trans">n. 网球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="ball">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">ball <span class="phonetic">/bɔːl/</span></div>
+                    <div class="trans">n. 球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="ping-pong">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">ping-pong <span class="phonetic">/ˈpɪŋ pɒŋ/</span></div>
+                    <div class="trans">n. 乒乓球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="bat">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">bat <span class="phonetic">/bæt/</span></div>
+                    <div class="trans">n. 球棒；球拍</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="soccer">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">soccer <span class="phonetic">/ˈsɒkə(r)/</span></div>
+                    <div class="trans">n. （英式）足球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="soccer ball">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">soccer ball <span class="phonetic">/ˈsɒkə bɔːl/</span></div>
+                    <div class="trans">（英式）足球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="volleyball">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">volleyball <span class="phonetic">/ˈvɒlibɔːl/</span></div>
+                    <div class="trans">n. 排球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="basketball">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">basketball <span class="phonetic">/ˈbɑːskɪtbɔːl/</span></div>
+                    <div class="trans">n. 篮球</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="hey">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">hey <span class="phonetic">/heɪ/</span></div>
+                    <div class="trans">interj. 嘿；喂</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="let">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">let <span class="phonetic">/let/</span></div>
+                    <div class="trans">v. 允许；让</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="us">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">us <span class="phonetic">/ʌs/, /əs/</span></div>
+                    <div class="trans">pron. 我们（宾语）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="let's">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">let's <span class="phonetic">/lets/</span></div>
+                    <div class="trans">让我们（一起）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="go">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">go <span class="phonetic">/ɡəʊ/, /ɡoʊ/</span></div>
+                    <div class="trans">v. 去；走</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="we">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">we <span class="phonetic">/wiː/, /wi/</span></div>
+                    <div class="trans">pron. 我们</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="late">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">late <span class="phonetic">/leɪt/</span></div>
+                    <div class="trans">adj. 迟到的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="has">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">has <span class="phonetic">/hæz/, /əz/</span></div>
+                    <div class="trans">v. 有（have的第三人称单数）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="get">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">get <span class="phonetic">/ɡet/</span></div>
+                    <div class="trans">v. 去取（或带来）；得到</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="great">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">great <span class="phonetic">/ɡreɪt/</span></div>
+                    <div class="trans">adj. 美妙的；伟大的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="play">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">play <span class="phonetic">/pleɪ/</span></div>
+                    <div class="trans">v. 玩；打（球）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="sound">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">sound <span class="phonetic">/saʊnd/</span></div>
+                    <div class="trans">v. 听起来好像</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="interesting">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">interesting <span class="phonetic">/ˈɪntrəstɪŋ/</span></div>
+                    <div class="trans">adj. 有趣的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="boring">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">boring <span class="phonetic">/ˈbɔːrɪŋ/</span></div>
+                    <div class="trans">adj. 没趣的；令人厌倦的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="fun">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">fun <span class="phonetic">/fʌn/</span></div>
+                    <div class="trans">adj. 有趣的；使人快乐的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="difficult">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">difficult <span class="phonetic">/ˈdɪfɪkəlt/</span></div>
+                    <div class="trans">adj. 困难的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="relaxing">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">relaxing <span class="phonetic">/rɪˈlæksɪŋ/</span></div>
+                    <div class="trans">adj. 令人放松的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="watch">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">watch <span class="phonetic">/wɒtʃ/, /wɑːtʃ/</span></div>
+                    <div class="trans">v. 注视；观看</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="TV">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">TV <span class="phonetic">/ˌtiːˈviː/</span></div>
+                    <div class="trans">n. 电视；电视机</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="watch TV">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">watch TV <span class="phonetic">/wɒtʃ ˌtiːˈviː/</span></div>
+                    <div class="trans">看电视</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="same">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">same <span class="phonetic">/seɪm/</span></div>
+                    <div class="trans">adj. 相同的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="love">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">love <span class="phonetic">/lʌv/</span></div>
+                    <div class="trans">v.&n. 爱；喜爱</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="with">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">with <span class="phonetic">/wɪð/, /wɪθ/</span></div>
+                    <div class="trans">prep. 和……在一起；带有</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="sport">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">sport <span class="phonetic">/spɔːt/, /spɔːrt/</span></div>
+                    <div class="trans">n. 体育运动</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="them">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">them <span class="phonetic">/ðəm/, /ðem/</span></div>
+                    <div class="trans">pron. 他（她、它）们（宾语）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="only">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">only <span class="phonetic">/ˈəʊnli/</span></div>
+                    <div class="trans">adv. 只；仅</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="like">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">like <span class="phonetic">/laɪk/</span></div>
+                    <div class="trans">v. 喜欢；喜爱</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="easy">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">easy <span class="phonetic">/ˈiːzi/</span></div>
+                    <div class="trans">adj. 容易的；不费力的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="after">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">after <span class="phonetic">/ˈɑːftə(r)/</span></div>
+                    <div class="trans">prep. 在……以后</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="class">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">class <span class="phonetic">/klɑːs/, /klæs/</span></div>
+                    <div class="trans">n. 班级；课</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="classmate">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">classmate <span class="phonetic">/ˈklɑːsmeɪt/</span></div>
+                    <div class="trans">n. 同班同学</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 6 -->
+        <div class="word-list" id="unit6">
+            <div class="word-item" data-word="banana">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">banana <span class="phonetic">/bəˈnɑːnə/, /bəˈnænə/</span></div>
+                    <div class="trans">n. 香蕉</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="hamburger">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">hamburger <span class="phonetic">/ˈhæmbɜːɡə(r)/</span></div>
+                    <div class="trans">n. 汉堡包</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="tomato">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">tomato <span class="phonetic">/təˈmɑːtəʊ/, /təˈmeɪtəʊ/</span></div>
+                    <div class="trans">n. 西红柿</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="ice-cream">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">ice-cream <span class="phonetic">/ˈaɪs kriːm/</span></div>
+                    <div class="trans">n. 冰激凌</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="salad">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">salad <span class="phonetic">/ˈsæləd/</span></div>
+                    <div class="trans">n. 沙拉</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="strawberry">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">strawberry <span class="phonetic">/ˈstrɔːbəri/</span></div>
+                    <div class="trans">n. 草莓</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="pear">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">pear <span class="phonetic">/peə(r)/</span></div>
+                    <div class="trans">n. 梨</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="milk">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">milk <span class="phonetic">/mɪlk/</span></div>
+                    <div class="trans">n. 牛奶</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="bread">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">bread <span class="phonetic">/bred/</span></div>
+                    <div class="trans">n. 面包</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="birthday">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">birthday <span class="phonetic">/ˈbɜːθdeɪ/</span></div>
+                    <div class="trans">n. 生日</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="dinner">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">dinner <span class="phonetic">/ˈdɪnə(r)/</span></div>
+                    <div class="trans">n. （中午或晚上吃的）正餐</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="week">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">week <span class="phonetic">/wiːk/</span></div>
+                    <div class="trans">n. 周；星期</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="think about">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">think about <span class="phonetic">/θɪŋk əˈbaʊt/</span></div>
+                    <div class="trans">思考；思索</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="food">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">food <span class="phonetic">/fuːd/</span></div>
+                    <div class="trans">n. 食物</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="sure">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">sure <span class="phonetic">/ʃʊə(r)/, /ʃʊr/</span></div>
+                    <div class="trans">adv. 当然；肯定；一定</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="how about">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">how about <span class="phonetic">/haʊ əˈbaʊt/</span></div>
+                    <div class="trans">……怎么样？</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="burger">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">burger <span class="phonetic">/ˈbɜːɡə(r)/</span></div>
+                    <div class="trans">n. 汉堡包（=hamburger）</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="vegetable">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">vegetable <span class="phonetic">/ˈvedʒtəbl/</span></div>
+                    <div class="trans">n. 蔬菜</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="fruit">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">fruit <span class="phonetic">/fruːt/</span></div>
+                    <div class="trans">n. 水果</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="right">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">right <span class="phonetic">/raɪt/</span></div>
+                    <div class="trans">adj. 正确的；适当的</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="apple">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">apple <span class="phonetic">/ˈæpl/</span></div>
+                    <div class="trans">n. 苹果</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="then">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">then <span class="phonetic">/ðen/</span></div>
+                    <div class="trans">adv. 那么</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="egg">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">egg <span class="phonetic">/eɡ/</span></div>
+                    <div class="trans">n. 蛋；鸡蛋</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="carrot">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">carrot <span class="phonetic">/ˈkærət/</span></div>
+                    <div class="trans">n. 胡萝卜</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="rice">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">rice <span class="phonetic">/raɪs/</span></div>
+                    <div class="trans">n. 大米；米饭</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="chicken">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">chicken <span class="phonetic">/ˈtʃɪkɪn/</span></div>
+                    <div class="trans">n. 鸡肉；鸡</div>
+                </div>
+            </div>
+            <div class="word-item" data-word="so">
+                <button class="pron-btn" onclick="playAudio(this)">🔊</button>
+                <div class="word-main">
+                    <div class="word">so <span class="phonetic">/səʊ/</span></div>
+                    <div class="trans">conj. 因此；所以</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 预留 Unit7、Unit8、总复习 位置，可自行补充单词 -->
+        <div class="word-list" id="unit7"></div>
+        <div class="word-list" id="unit8"></div>
+        <div class="word-list" id="review"></div>
+    </div>
+
+    <!-- 引入外部JS文件 -->
+    <script src="js/wordlist.js"></script>
+</body>
+</html>
